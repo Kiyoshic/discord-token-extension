@@ -8,8 +8,6 @@ if (condition) {
 				console.log(elem);
 				callback(elem);
 				return true;
-			} else if (elem.className) {
-				console.log(elem.className);
 			}
 			return false;
 		})) {
