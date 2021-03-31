@@ -7,6 +7,7 @@ if (condition) {
 		for (let key of Object.keys(elemQueue)) {
 			if (e.className.includes(key)) {
 				elemQueue[key](e);
+				break;
 			}
 		}
 	}, false);
